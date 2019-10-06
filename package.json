@@ -1,0 +1,21 @@
+{
+  "name": "lambda-s3proxy",
+  "version": "1.0.0",
+  "description": "http lambda that proxies an s3 bucket",
+  "main": "index.js",
+  "dependencies": {
+    "aws-serverless-express": "^3.3.5",
+    "body-parser": "^1.18.3",
+    "compression": "^1.7.3",
+    "express": "^4.16.4",
+    "express-request-id": "^1.4.1",
+    "morgan": "^1.9.1",
+    "s3proxy": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Walter Derezinski <wderezin@daringway.com> (http://www.daringway.com/)",
+  "license": "ISC"
+}
